@@ -2,3 +2,5 @@
 
 export(predict_protein_class)
 import(randomForest)
+importFrom(stats,predict)
+importFrom(utils,read.csv)
