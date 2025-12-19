@@ -1,0 +1,15 @@
+Package: BioPredProtein
+Title: BioPredProtein is a specialized bioinformatics R package designed to predict the functional classification of protein structures based on their fundamental physicochemical properties.
+Version: 0.1.0
+Authors@R: 
+    person("Han", "Yan", , "Han.Yan23@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: Implements a Random Forest classifier to predict protein functional 
+    classes (Hydrolase, Transferase, Oxidoreductase) based on physicochemical 
+    properties. Includes a pre-trained model and example datasets
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    randomForest,
+    statsYan
